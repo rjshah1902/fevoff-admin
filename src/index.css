@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Josefin Slab", serif !important;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+}
+
+p, ul li{
+    font-family: "Josefin Slab", serif !important;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+}
+
+input{
+    font-weight: 600;
+}
+
+.main-wrapper section{
+    min-height: 82vh;
+}
+
+.web-btn-1{
+    border: 1px solid #BF3900;
+    background: transparent;
+    color: white;
+    font-style: italic;
+    width: 100%;
+    letter-spacing: 1.2px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.web-btn-1:hover{
+    border: 1px solid #707070;
+    background: white;
+    color: black;
+    font-style: italic;
+    width: 100%;
+    letter-spacing: 1.2px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+
+.web-btn-2{
+    border: 1px solid #BF3900;
+    background: transparent;
+    color: black;
+    font-style: italic;
+    letter-spacing: 1px;
+    font-size: 16px;
+    border-radius: 5px;
+    min-height: 2.5rem !important;
+    height: 2.5rem !important;
+    min-width: 150px;
+}
+
+.web-btn-2:hover{
+    border: 1px solid #707070;
+    background: black;
+    color: white;
+    font-style: italic;
+    width: 100%;
+    letter-spacing: 1.2px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+@media(max-width:767px){
+    .table :where(th, td){
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+}
