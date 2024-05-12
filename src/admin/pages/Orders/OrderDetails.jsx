@@ -49,13 +49,13 @@ const OrderDetails = () => {
                                                     <tbody key={index}>
                                                         <tr>
                                                             <td>
-                                                                <h3 className='text-2xl'>Name: {user?.userDetails[0].name}</h3>
+                                                                <h3 className='text-2xl'>Name: {user?.userDetails[0]?.name}</h3>
                                                             </td>
                                                             <td>
-                                                                <h3 className='text-2xl'>Email: {user?.userDetails[0].email}</h3>
+                                                                <h3 className='text-2xl'>Email: {user?.userDetails[0]?.email}</h3>
                                                             </td>
                                                             <td>
-                                                                <h3 className='text-2xl'>Contact: {"+" + user?.userDetails[0].countryCode + " " + user?.userDetails[0].contact}</h3>
+                                                                <h3 className='text-2xl'>Contact: {"+" + user?.userDetails[0]?.countryCode + " " + user?.userDetails[0]?.contact}</h3>
                                                             </td>
                                                         </tr>
                                                         <tr>

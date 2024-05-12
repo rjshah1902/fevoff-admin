@@ -59,8 +59,8 @@ const OrdersList = () => {
                     return (
                       <tr key={index}>
                         <td>{index + 1}</td>
-                        <td>{data.userDetails[0].name}</td>
-                        <td>{data.userDetails[0].email} <br />{data.userDetails[0].contact}</td>
+                        <td>{data?.userDetails[0]?.name}</td>
+                        <td>{data?.userDetails[0]?.email} <br />{data?.userDetails[0]?.contact}</td>
                         <td>{moment(data.createdAt).format("DD-MM-YY")}</td>
                         <td>
                           {
